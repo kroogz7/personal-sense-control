@@ -32,6 +32,15 @@ export const ExpenseChart = () => {
               backgroundColor: 'hsl(var(--jarvis-surface))',
               border: '1px solid hsl(var(--jarvis-glow) / 0.3)',
               borderRadius: '8px',
+              color: 'hsl(var(--foreground))',
+              fontSize: '14px',
+              fontWeight: '500'
+            }}
+            labelStyle={{
+              color: 'hsl(var(--jarvis-glow))',
+              fontWeight: '600'
+            }}
+            itemStyle={{
               color: 'hsl(var(--foreground))'
             }}
           />
